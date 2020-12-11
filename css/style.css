@@ -1,0 +1,456 @@
+body {
+  background-color: #F7F7F7;
+  font-family: 'Baskervville', serif;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F7F7F7;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: #d9d9d9;
+}
+
+/*Forside*/
+
+.forsidebillede{
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+a {
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.knapforside{
+  margin-left: 235px;
+  margin-top: 15px;
+  height:25px;
+  width:216px;
+  padding: 5px 4px 5px 4px;
+  border: 2px solid #819045;
+}
+
+.knapforside:hover:not(.active) {
+  color: #F7F7F7;
+  border: black solid 2px;
+  background:#F7F7F7;
+}
+
+.forsideo{
+  display: flex;
+  align-items: flex-end;
+  margin-top: -400px;
+  margin-left: 800px
+}
+
+.forsideoverskrift1 {
+margin-right: -10px;
+margin-bottom: 55px;
+}
+
+.forsideoverskrift2 {
+margin-left: -255px;
+}
+
+.forsidep{
+  display: flex;
+  text-align: left;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  margin-right: 200px;
+  margin-left: 750px
+}
+
+/*footer*/
+
+.footer {
+  margin-top: 200px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: black solid 1px;
+  text-align: center;
+}
+
+.footer1{
+  text-align: left;
+}
+
+/*portfoliosiden*/
+
+.flows{
+  display: flex;
+  margin-top: 200px;
+  margin-bottom: 330px;
+}
+
+.flow1:hover {
+  opacity: 0.6;
+}
+
+.flow2:hover {
+  opacity: 0.6;
+}
+
+.flow3:hover {
+  opacity: 0.6;
+}
+
+.flow4:hover {
+  opacity: 0.6;
+}
+
+.flow5:hover {
+  opacity: 0.6;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 170px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #819045;
+  color: white;
+  margin-top: -90px;
+  font-size: 16px;
+  padding: 10px 10px;
+}
+
+
+/*om mig siden*/
+
+.videoogtekst{
+  display: flex;
+}
+
+.video{
+  display: flex;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.ommigt{
+  margin-top: 45px;
+  margin-right: 90px;
+  margin-left: 50px;
+  margin-bottom: 150px;
+}
+
+.kompetencer{
+display: flex;
+text-align: center;
+margin-bottom: -100px;
+}
+
+.kompetence1{
+margin-left: 300px;
+margin-right: 20px;
+}
+.kompetence2{
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.kompetence3{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.kompetence4{
+margin-right: 50px;
+margin-left: 20px;
+}
+
+.kompetence2:hover {
+  opacity: 0.6;
+}
+
+.kompetence4:hover {
+  opacity: 0.6;
+}
+
+/*Kontakt siden*/
+
+.overskrift4{
+  text-align: center;
+}
+
+.kontaktformular{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -100px;
+}
+
+/*flow1*/
+
+.overskriftflows{
+  text-align: center;
+}
+
+.skriftogbilleder{
+display: flex;
+}
+
+.tekstflow1{
+  margin-top: 45px;
+  margin-right: 200px;
+  margin-left: 100px;
+  margin-bottom: -10px;
+}
+
+.link2flow1{
+  margin-bottom: 40px;
+}
+
+.link3flow1{
+    margin-bottom: 40px;
+}
+
+.billede1flow1{
+  display: flex;
+  margin-top: 95px;
+  margin-right: 100px;
+  margin-left: 80px;
+}
+
+.billede2flow1{
+  margin-top: 95px;
+  margin-right: 100px;
+  margin-left: 80px;
+}
+
+.tekstunderbilleder1 {
+  margin-right: 77px;
+  margin-left: 82px;
+  font-size: 10px;
+}
+
+.tekstunderbilleder2{
+  margin-right: 60px;
+  margin-left: 78px;
+  font-size: 10.5px;
+}
+
+.billede1flow1:hover{
+  opacity: 0.6;
+}
+
+.billede2flow1:hover{
+  opacity: 0.6;
+}
+
+/*flow2*/
+
+.tekst2flow2{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.tekst3flow2{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.billede1flow2{
+  display: flex;
+  margin-top: 95px;
+  margin-right: 80px;
+  margin-left: 60px;
+}
+
+.billede2flow2{
+  display: flex;
+  margin-top: 95px;
+  margin-right: 80px;
+  margin-left: 50px;
+}
+
+.tekstunderbilleder1flow2 {
+  margin-right: 63px;
+  margin-left: 63px;
+  font-size: 10px;
+}
+
+.tekstunderbilleder2flow2{
+  margin-right: 48px;
+  margin-left: 48px;
+  font-size: 10.5px;
+}
+
+/*flow3*/
+
+.semestre{
+  text-align: center;
+  font-size: 23px;
+  margin-top: 150px;
+  margin-bottom: -160px;
+}
+
+.tekstflow3{
+  margin-top: 45px;
+  margin-right: 200px;
+  margin-left: 100px;
+  margin-bottom: -10px;
+}
+
+.tekst1flow3{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.tekst3flow3{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.billede1flow3{
+  margin-top: 60px;
+}
+
+.billede2flow3{
+  margin-top: 500px;
+}
+
+.billede1flow3{
+  display: flex;
+  margin-top: 95px;
+  margin-right: 100px;
+  margin-left: 80px;
+}
+
+.billede2flow3{
+  margin-top: 95px;
+  margin-right: 100px;
+  margin-left: 80px;
+}
+
+
+/*flow4*/
+
+.tekstflow4{
+  margin-top: 45px;
+  margin-right: 200px;
+  margin-left: 100px;
+  margin-bottom: -10px;
+}
+
+.tekst2flow4{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.tekst3flow4{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/*flow5*/
+
+.skriftogbilleder{
+display: flex;
+}
+
+.tekstflow5{
+  margin-top: 45px;
+  margin-right: 80px;
+  margin-left: 100px;
+  margin-bottom: -10px;
+}
+
+.pmellemrum{
+  margin-top: 50px;
+}
+
+.billede1flow5{
+  display: flex;
+  margin-top: 360px;
+  margin-right: 100px;
+  margin-left: 80px;
+  height: 190px;
+  width: 350px;
+}
+
+.billede1flow5:hover{
+  opacity: 0.6;
+}
+
+.tekstunderbilleder1{
+  margin-right: 140px;
+  margin-left: 80px;
+  font-size: 13px;
+}
+
+.billede2flow5{
+  display: flex;
+  margin-top: 40px;
+  margin-left: -1px;
+  height: 220px;
+  width: 720px;
+}
+
+.billede4flow5{
+  display: flex;
+  margin-top: 3860px;
+  margin-right: 100px;
+  margin-left: 80px;
+  height: 270px;
+  width: 350px;
+}
+
+.billede4flow5:hover{
+  opacity: 0.6;
+}
+
+.tekstunderbilleder2{
+  margin-right: 60px;
+  margin-left: 80px;
+  font-size: 14px;
+}
+
+.billede5flow5{
+  margin-bottom: -20px;
+  margin-left: -10px;
+}
